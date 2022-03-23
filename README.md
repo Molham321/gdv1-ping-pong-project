@@ -1,7 +1,7 @@
 # GDV1 - Ping-Pong Project
 
-Ein Projekt von Molham Al-khodari für das Modul GDV1
-a simple game implemented with YoshiX
+Ein Projekt von Molham Al-khodari für das Modul GDV1 <br>
+a simple game implemented with YoshiX, you can finde more infos about YoshiX [hier](docs/yoshix.chm) <br>
 
 ## About the Project
 
