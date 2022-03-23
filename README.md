@@ -26,8 +26,7 @@ Player Tow (right side)
 Start Game 
 - Spase
 
-![](docs/Photos/pingBong.gif) <br>
-
+![](docs/Photos/pingPong.gif) <br>
 
 ## import Project
 
@@ -40,3 +39,7 @@ git init
 git remote add origin https://git.ai.fh-erfurt.de/mo2467al/gdv1-ping-pong-project.git
 git pull origin main
 ```
+
+## Tolls
+
+- Visual Studio 2019
