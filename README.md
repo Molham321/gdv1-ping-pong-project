@@ -1,23 +1,29 @@
 # GDV1 - Ping-Pong Project
 
 Ein Projekt von Molham Al-khodari für das Modul GDV1
+a simple game implemented with YoshiX
 
-## Getting started
+## About the Project
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+the project is a simple classic Ping-Pong game.
+intended for two players but can be played with one player, but you have to play against yourself.
+the game is very similar for online bong game.
+
+
+
 
 Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
-## Add your files
+## import Project
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+- [ ] you can download the Project as zip date
+- [ ] import project with the following command:
 
 ```
 cd existing_repo
+git init
 git remote add origin https://git.ai.fh-erfurt.de/mo2467al/gdv1-ping-pong-project.git
-git branch -M main
-git push -uf origin main
+git pull origin main
 ```
 
 ## Integrate with your tools
