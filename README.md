@@ -11,10 +11,7 @@ the game is very similar for online bong game. <br>
 you control a small Bat Up and down to try to push the ball away. <br>
 because the game is very classic, there is no score or anything like that, once the ball is missed you lose and the game ends <br>
 
-![alt text](https://git.ai.fh-erfurt.de/mo2467al/gdv1-ping-pong-project/-/blob/main/docs/Photos/onlineBong.png) <br>
-
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+![](docs/Photos/onlineBong.png) <br>
 
 ## Controls
 
