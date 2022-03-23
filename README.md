@@ -9,6 +9,8 @@ the project is a simple classic Ping-Pong game.
 intended for two players but can be played with one player, but you have to play against yourself.
 the game is very similar for online bong game.
 
+[![Build Status](https://git.ai.fh-erfurt.de/mo2467al/gdv1-ping-pong-project/-/blob/main/docs/Photos/online%20Bong.png)](https://git.ai.fh-erfurt.de/mo2467al/gdv1-ping-pong-project/-/blob/main/docs/Photos/online%20Bong.png)
+
 
 
 
