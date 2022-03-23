@@ -26,6 +26,9 @@ Player Tow (right side)
 Start Game 
 - Spase
 
+![](docs/Photos/pingBong.gif) <br>
+
+
 ## import Project
 
 - [ ] you can download the Project as zip date
