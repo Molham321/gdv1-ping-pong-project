@@ -15,40 +15,21 @@ class CApplication : public gfx::IApplication
 {
 public:
 
-	/* constructors &  */
-
 	CApplication();
 	virtual ~CApplication();
 
 private:
 
-	/* namespase for BHandle */
+	using BHandle = gfx::BHandle;		/* namespase for BHandle */
 
-	using BHandle = gfx::BHandle;
-
-private:
-
-	/* A pointer to a YoshiX mesh, which represents a single cube */
-
-	BHandle m_pCubeMesh;																	
+	BHandle m_pCubeMesh;				/* A pointer to a YoshiX mesh, which represents a single cube */															
 	BHandle m_pBatMesh;						
+	BHandle m_pBallMesh;				/* A pointer to a YoshiX mesh, which represents a single sphere */
 
-	/* A pointer to a YoshiX mesh, which represents a single sphere */
-
-	BHandle m_pBallMesh;																
-
-	/* Bat coordination */
-
-	SPosition m_BatPlayerOnePosition;														
+	SPosition m_BatPlayerOnePosition;	/* Bat coordination */												
 	SPosition m_BatPlayerTowPosition;
-
-	/* Ball coordination */
-
-	SPosition m_BallPosition;																
-
-	/* ball velocity on the x and y axis */
-
-	SPosition m_BallSpeedPosition;															
+	SPosition m_BallPosition;			/* Ball coordination */													
+	SPosition m_BallSpeedPosition;		/* ball velocity on the x and y axis */													
 
 	float const     m_BatMovementSpeedY;
 	float			m_AngleY;
@@ -58,17 +39,10 @@ private:
 
 private:
 
-	/* this is used to create walls and bat */
+	void CreateCube(BHandle* _ppMesh, float _EdgeLength);		/* this is used to create walls and bat */
+	void CreateSphere(BHandle* _ppMesh, float _Radius);			/* this is used to create ball */
 
-	void CreateCube(BHandle* _ppMesh, float _EdgeLength);
-
-	/* this is used to create ball */
-
-	void CreateSphere(BHandle* _ppMesh, float _Radius);
-
-	/* it is checked whether the ball position on the x and y axis has crossed a certain distance */
-
-	bool CheckCollision(int _xPosition, int _yPosition);
+	bool CheckCollision(int _xPosition, int _yPosition);		/* it is checked whether the ball position on the x and y axis has crossed a certain distance */
 
 private:
 

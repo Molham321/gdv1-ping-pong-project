@@ -7,5 +7,6 @@ void main()
 {
 	run();
 	CApplication Application;
-	RunApplication(1080, 720, "Ping-Pong", &Application);
+	RunApplication(800, 600, "Molham Al-khodari - GDV1 Ping-Pong", &Application);
+
 }
