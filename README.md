@@ -6,10 +6,10 @@ a simple game implemented with YoshiX, you can finde more infos about YoshiX [hi
 ## About the Project
 
 the project is a simple classic Ping-Pong game. <br>
-intended for two players but can be played with one player, but you have to play against yourself. <br>
+intended for two players you can played as singel player so you have to play against yourself. <br>
 the game is very similar for online bong game. <br>
 you control a small Bat Up and down to try to push the ball away. <br>
-because the game is very classic, there is no score or anything like that, once the ball is missed you lose and the game ends <br>
+the game is very classic, there is no score or anything like that, once the ball is missed you lose and the game <br>
 
 ![](docs/Photos/onlineBong.png) <br>
 
